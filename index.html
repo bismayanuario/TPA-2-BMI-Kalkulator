@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <h2>Kalkulator BMI</h2>
+            <input type="text" name="bmi" id="weight" placeholder="KG">
+            <input type="text" name="bmi" id="height" placeholder="CM">
+            <input type="submit" value="Hitung" id="calculate">
+            <div id="yourBMI">Hasil BMI : <span>00</span></div>
+        </div>
+        <div id="guide">
+            <h2>Panduan</h2>
+            <ul>
+                <li>Under Weight = BMI kurang dari 18.5</li>
+                <li>Normal Weight = BMI antara 18.5 - 24.9 </li>
+                <li>Over Weight = BMI antara 25 - 29.9</li>
+                <li>Obesity = BMI lebih dari 30</li>
+            </ul>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
